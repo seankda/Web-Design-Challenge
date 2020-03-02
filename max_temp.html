@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
-  <title>AWSheetz Home</title>
+
+  <title>AWSheetz Max Temp</title>
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="Resources/funpix/favicon-16x16.png">
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,8 +17,6 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
-
-<!--Body-->
 
 <body>
 
@@ -82,50 +82,79 @@
   </div>
   <!--Navbar End-->
 
-  <!--Parallax 1-->
-  <div class="parallax"></div>
-
-  <!-- Scroll down caption
-  <div class="caption">
-    <span class="border">SCROLL DOWN</span>
-  </div>
-  -->
-
   <div class="container">
-  <div style="height:45%;background-color:white;font-size:30px;padding-left: 20px;">
-    <center><img src="Resources/funpix/Cockatiel_56.png" alt="HeyGuys"> Welcome to my first GitHub Page!
-    </center>
-    <br>
-    <p>For this project, we'll be building a dashboard. Within the dashboard, we'll create individual pages for each
-      plot
-      and a means by which we can navigate between them. These pages will contain the visualizations and their
-      corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the
-      plots, and another page where we can view the data used to build them.</p><br>
-    <center><b>TL;DR: We're gonna show off our data in one central location</center></b>
+
+    <!--Summary Section Start-->
+    <div class="row">
+      <div class="col-lg-8 col-md-12">
+        <div class="box">
+          <h4 class="title">Max Temperature</h4>
+          <hr>
+          <img src="Resources/assets/images/max_temp.png" height="500" width="650" alt="Max Temperature Image">
+          <p>Based on the data collected and visualized (as can be seen above), the latitudes that get closer to the
+            equator steadily gets warmer. This definitely supports the statement that climates closer to the equator are
+            warmer.</p>
+        </div>
+
+      </div>
+      <!--Summary Section End-->
+
+      <!--Visualization Section Start-->
+      <div class="col-lg-4 col-md-12">
+        <div class="box">
+
+          <h5 class="title">Visualizations</h5>
+          <hr>
+
+          <div class="container">
+
+            <div class="row" style="padding-bottom:30px">
+              <div class="col-6">
+                <a href="max_temp.html">
+                  <img class="border-button" src="Resources/assets/images/max_temp.png" style="width:100%"
+                    alt="Max Temp Plot">
+                </a>
+              </div>
+
+              <div class="col-6">
+                <a href="humidity.html">
+                  <img class="border-button" src="Resources/assets/images/humidity.png" style="width:100%"
+                    alt="Humidity Plot">
+                </a>
+              </div>
+
+            </div>
+
+            <div class="row" style="padding-bottom:30px;">
+
+              <div class="col-6">
+                <a href="cloudiness.html">
+                  <img class="border-button" src="Resources/assets/images/cloudiness.png" style="width:100%"
+                    alt="Cloudiness Plot">
+                </a>
+              </div>
+
+              <div class="col-6">
+                <a href="wind_speed.html">
+                  <img class="border-button" src="Resources/assets/images/wind_speed.png" style="width:100%"
+                    alt="Wind Speed Plot">
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!--Visualization Section End-->
+
+    </div>
+
   </div>
-
-</div>
-
-  <div class="parallax2"></div>
-
-  <div class="container">
-  <div style="height:3%;background-color:white;font-size:18px;padding-left: 20px;">
-    <center><img src="Resources/funpix/parrot_love_56.png" alt="ParrotHeart"><a href="index.html"> Back to top </a><img
-        src="Resources/funpix/parrot_love_56.png" alt="ParrotHeart">
-    </center>
-  </div>
-</div>
-
-
-
-  <!-- 3rd Parallax
-  <div class="parallax3"></div>
-  -->
-  <!--Parallax End-->
 
   <!-- Optional JavaScript -->
-  <script type="text/javascript" charset="utf-8" src="js/script.js"></script>
-
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -136,7 +165,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-
 </body>
 
 </html>

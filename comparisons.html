@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>AWSheetz Home</title>
+  <title>AWSheetz Comparisons</title>
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="Resources/funpix/favicon-16x16.png">
   <!-- Required meta tags -->
@@ -15,8 +15,6 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
-
-<!--Body-->
 
 <body>
 
@@ -82,50 +80,61 @@
   </div>
   <!--Navbar End-->
 
-  <!--Parallax 1-->
-  <div class="parallax"></div>
-
-  <!-- Scroll down caption
-  <div class="caption">
-    <span class="border">SCROLL DOWN</span>
-  </div>
-  -->
-
+  <!--2x2 Comparison Section Start-->
   <div class="container">
-  <div style="height:45%;background-color:white;font-size:30px;padding-left: 20px;">
-    <center><img src="Resources/funpix/Cockatiel_56.png" alt="HeyGuys"> Welcome to my first GitHub Page!
-    </center>
-    <br>
-    <p>For this project, we'll be building a dashboard. Within the dashboard, we'll create individual pages for each
-      plot
-      and a means by which we can navigate between them. These pages will contain the visualizations and their
-      corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the
-      plots, and another page where we can view the data used to build them.</p><br>
-    <center><b>TL;DR: We're gonna show off our data in one central location</center></b>
+    <div class="row">
+
+      <div class="box">
+
+        <h3 class="compTitle">Comparison: Lattitude vs X</h3>
+        <hr>
+        <p>Click any plot to get an in-depth analysis.</p>
+
+        <div class="row">
+
+          <div class="col-lg-6" style="padding: 30px;">
+            <div class="compHead" style="text-align:center;">vs. Max Temperature</div>
+            <a href="max_temp.html">
+              <img src="Resources/assets/images/max_temp.png" style="width:100%" alt="Max Temperature Image">
+            </a>
+          </div>
+
+          <div class="col-lg-6" style="padding: 30px;">
+            <div class="compHead" style="text-align:center;">vs. Humidity</div>
+            <a href="humidity.html">
+              <img src="Resources/assets/images/humidity.png" style="width:100%" alt="Humidity Graph">
+            </a>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6" style="padding: 30px;">
+            <div class="compHead" style="text-align:center;">vs. Cloudiness</div>
+            <a href="cloudiness.html">
+              <img src="Resources/assets/images/cloudiness.png" style="width:100%" alt="Cloudiness Graph">
+            </a>
+          </div>
+
+          <div class="col-lg-6" style="padding: 30px;">
+            <div class="compHead" style="text-align:center;">vs. Wind Speed</div>
+            <a href="wind_speed.html">
+              <img src="Resources/assets/images/wind_speed.png" style="width:100%" alt="Wind Speed Graph">
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
+  <!--2x2 Comparison Section End-->
 
-</div>
-
-  <div class="parallax2"></div>
-
-  <div class="container">
-  <div style="height:3%;background-color:white;font-size:18px;padding-left: 20px;">
-    <center><img src="Resources/funpix/parrot_love_56.png" alt="ParrotHeart"><a href="index.html"> Back to top </a><img
-        src="Resources/funpix/parrot_love_56.png" alt="ParrotHeart">
-    </center>
-  </div>
-</div>
-
-
-
-  <!-- 3rd Parallax
-  <div class="parallax3"></div>
-  -->
-  <!--Parallax End-->
 
   <!-- Optional JavaScript -->
-  <script type="text/javascript" charset="utf-8" src="js/script.js"></script>
-
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -136,7 +145,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-
 </body>
 
 </html>
